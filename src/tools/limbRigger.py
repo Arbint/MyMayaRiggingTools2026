@@ -132,7 +132,7 @@ class LimbRiggerWidget(MayaWidget):
 
         # add a color pick widget to the self.masterLayout
         # listen for color change and connect to a function.
-        # the function needs to update the color of of limbRigger: self.rigger.controlColorRGB
+        # the function needs to update the color of of limbRigger
 
         self.rigLimbBtn = QPushButton("Rig Limb")
         self.rigLimbBtn.clicked.connect(self.RigLimbBtnClicked)
