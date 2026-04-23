@@ -13,12 +13,15 @@ from core.MayaUtilities import (CreateCircleControllerForJnt,
                                 GetObjectPositionAsMVec
                                 )
 
+# the class to handle the rigging job
 class LimbRigger:
+    # the constructor of the limb rigger class, to initialize the attributes. 
     def __init__(self):
         self.nameBase = ""
         self.controllerSize = 10
         self.blendControllerSize = 4
         self.controlColorRGB = [0,0,0]
+
 
     def SetNameBase(self, newNameBase):
         self.nameBase = newNameBase
